@@ -118,6 +118,40 @@ namespace Aquaponics
                     DO_L.Text = res_s[2];
                     CO_L.Text = res_s[3];
                     RTD_L.Text = res_s[4];
+
+                    if (DO_ch.Series[0].Points.Count > 30)
+                    {
+                        DO_ch.Series[0].Points.RemoveAt(0);
+                    }
+                    DO_ch.Series[0].Points.Add(Double.Parse(res_s[2]));
+
+
+                    if (CO_ch.Series[0].Points.Count > 30)
+                    {
+                        CO_ch.Series[0].Points.RemoveAt(0);
+                    }
+                    CO_ch.Series[0].Points.Add(Double.Parse(res_s[3]));
+
+
+                    if (PH_ch.Series[0].Points.Count > 30)
+                    {
+                        PH_ch.Series[0].Points.RemoveAt(0);
+                    }
+                    PH_ch.Series[0].Points.Add(Double.Parse(res_s[0]));
+
+
+                    if (T_ch.Series[0].Points.Count > 30)
+                    {
+                        T_ch.Series[0].Points.RemoveAt(0);
+                    }
+                    T_ch.Series[0].Points.Add(Double.Parse(res_s[4]));
+
+
+                    if (OPR_ch.Series[0].Points.Count > 30)
+                    {
+                        OPR_ch.Series[0].Points.RemoveAt(0);
+                    }
+                    OPR_ch.Series[0].Points.Add(Double.Parse(res_s[1]));
                 }
             }
             catch (Exception ex) {
@@ -192,6 +226,11 @@ namespace Aquaponics
         public void setStatus(string s)
         {
             statusL.Text = "Status: " + s;
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
