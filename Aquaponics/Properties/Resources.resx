@@ -139,8 +139,17 @@
   <data name="folder_plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\folder-plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="kv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="memory_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\memory_m.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nel123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nel123.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="power_plug" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\power_plug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

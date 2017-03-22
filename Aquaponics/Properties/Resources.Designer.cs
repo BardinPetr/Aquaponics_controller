@@ -133,9 +133,39 @@ namespace Aquaponics.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap kv {
+            get {
+                object obj = ResourceManager.GetObject("kv", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap memory_m {
             get {
                 object obj = ResourceManager.GetObject("memory_m", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nel {
+            get {
+                object obj = ResourceManager.GetObject("nel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nel123 {
+            get {
+                object obj = ResourceManager.GetObject("nel123", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
