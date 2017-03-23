@@ -300,5 +300,15 @@ namespace Aquaponics
             P_4.ForeColor = Color.BlueViolet;
             _serialPort.Write("<13>");
         }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
