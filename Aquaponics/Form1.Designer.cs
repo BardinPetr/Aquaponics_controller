@@ -28,21 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea11 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint11 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 20D);
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea12 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint12 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 20D);
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea13 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series13 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint13 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 20D);
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea14 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series14 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint14 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 20D);
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea15 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series15 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint15 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 20D);
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint1 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 20D);
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint2 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 20D);
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint3 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 20D);
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint4 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 20D);
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint5 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 20D);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.portBox = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -72,42 +73,48 @@
             this.P_3 = new System.Windows.Forms.Label();
             this.P_2 = new System.Windows.Forms.Label();
             this.P_1 = new System.Windows.Forms.Label();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.label7 = new System.Windows.Forms.Label();
-            this.DO_ch = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.label8 = new System.Windows.Forms.Label();
-            this.CO_ch = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.label9 = new System.Windows.Forms.Label();
-            this.PH_ch = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.label10 = new System.Windows.Forms.Label();
-            this.OPR_ch = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.label11 = new System.Windows.Forms.Label();
             this.T_ch = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.label11 = new System.Windows.Forms.Label();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.OPR_ch = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.label10 = new System.Windows.Forms.Label();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.PH_ch = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.label9 = new System.Windows.Forms.Label();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.CO_ch = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.label8 = new System.Windows.Forms.Label();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.DO_ch = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.label7 = new System.Windows.Forms.Label();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.P113 = new System.Windows.Forms.Button();
+            this.P112 = new System.Windows.Forms.Button();
+            this.P111 = new System.Windows.Forms.Button();
+            this.P110 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.connect_btn = new System.Windows.Forms.Button();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.groupBox1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DO_ch)).BeginInit();
-            this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.CO_ch)).BeginInit();
-            this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PH_ch)).BeginInit();
-            this.tabPage4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.OPR_ch)).BeginInit();
             this.tabPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.T_ch)).BeginInit();
+            this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.OPR_ch)).BeginInit();
+            this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PH_ch)).BeginInit();
+            this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.CO_ch)).BeginInit();
+            this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DO_ch)).BeginInit();
+            this.tabControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -146,7 +153,8 @@
             // statusStrip1
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.statusL});
+            this.statusL,
+            this.toolStripStatusLabel1});
             this.statusStrip1.Location = new System.Drawing.Point(0, 428);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(1109, 22);
@@ -290,6 +298,10 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.P113);
+            this.groupBox3.Controls.Add(this.P112);
+            this.groupBox3.Controls.Add(this.P111);
+            this.groupBox3.Controls.Add(this.P110);
             this.groupBox3.Controls.Add(this.P03);
             this.groupBox3.Controls.Add(this.P13);
             this.groupBox3.Controls.Add(this.P02);
@@ -319,6 +331,7 @@
             this.P03.TabIndex = 23;
             this.P03.Text = "OFF";
             this.P03.UseVisualStyleBackColor = true;
+            this.P03.Visible = false;
             this.P03.Click += new System.EventHandler(this.P03_Click);
             // 
             // P13
@@ -331,6 +344,7 @@
             this.P13.TabIndex = 22;
             this.P13.Text = "ON";
             this.P13.UseVisualStyleBackColor = true;
+            this.P13.Visible = false;
             this.P13.Click += new System.EventHandler(this.P13_Click);
             // 
             // P02
@@ -343,6 +357,7 @@
             this.P02.TabIndex = 21;
             this.P02.Text = "OFF";
             this.P02.UseVisualStyleBackColor = true;
+            this.P02.Visible = false;
             this.P02.Click += new System.EventHandler(this.P02_Click);
             // 
             // P12
@@ -355,6 +370,7 @@
             this.P12.TabIndex = 20;
             this.P12.Text = "ON";
             this.P12.UseVisualStyleBackColor = true;
+            this.P12.Visible = false;
             this.P12.Click += new System.EventHandler(this.P12_Click);
             // 
             // P01
@@ -367,6 +383,7 @@
             this.P01.TabIndex = 19;
             this.P01.Text = "OFF";
             this.P01.UseVisualStyleBackColor = true;
+            this.P01.Visible = false;
             this.P01.Click += new System.EventHandler(this.P01_Click);
             // 
             // P11
@@ -379,6 +396,7 @@
             this.P11.TabIndex = 18;
             this.P11.Text = "ON";
             this.P11.UseVisualStyleBackColor = true;
+            this.P11.Visible = false;
             this.P11.Click += new System.EventHandler(this.P11_Click);
             // 
             // P00
@@ -391,6 +409,7 @@
             this.P00.TabIndex = 17;
             this.P00.Text = "OFF";
             this.P00.UseVisualStyleBackColor = true;
+            this.P00.Visible = false;
             this.P00.Click += new System.EventHandler(this.P00_Click);
             // 
             // P10
@@ -403,6 +422,7 @@
             this.P10.TabIndex = 16;
             this.P10.Text = "ON";
             this.P10.UseVisualStyleBackColor = true;
+            this.P10.Visible = false;
             this.P10.Click += new System.EventHandler(this.P10_Click);
             // 
             // P_4
@@ -449,56 +469,136 @@
             this.P_1.TabIndex = 12;
             this.P_1.Text = "P1";
             // 
-            // tabControl1
+            // label12
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Controls.Add(this.tabPage5);
-            this.tabControl1.Location = new System.Drawing.Point(406, 21);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(464, 403);
-            this.tabControl1.TabIndex = 7;
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Lucida Handwriting", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(925, 372);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(139, 48);
+            this.label12.TabIndex = 4;
+            this.label12.Text = "  Wrote by \r\nBardinPetr";
             // 
-            // tabPage1
+            // label13
             // 
-            this.tabPage1.Controls.Add(this.label7);
-            this.tabPage1.Controls.Add(this.DO_ch);
-            this.tabPage1.Font = new System.Drawing.Font("Monotype Corsiva", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(456, 377);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "DO";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Monotype Corsiva", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label13.Location = new System.Drawing.Point(822, 431);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(277, 15);
+            this.label13.TabIndex = 10;
+            this.label13.Text = "If You find bugs, please write me to bardin.petr@gmail.com";
             // 
-            // label7
+            // tabPage5
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(277, 8);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(150, 25);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "Disslowed Oxygen";
+            this.tabPage5.Controls.Add(this.label11);
+            this.tabPage5.Controls.Add(this.T_ch);
+            this.tabPage5.Font = new System.Drawing.Font("Monotype Corsiva", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Size = new System.Drawing.Size(456, 377);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Temp";
+            this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // DO_ch
+            // T_ch
             // 
-            chartArea11.Name = "ChartArea1";
-            this.DO_ch.ChartAreas.Add(chartArea11);
-            this.DO_ch.Location = new System.Drawing.Point(13, 24);
-            this.DO_ch.Name = "DO_ch";
-            this.DO_ch.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
-            series11.ChartArea = "ChartArea1";
-            series11.Name = "Disslowed Oxygen";
-            series11.Points.Add(dataPoint11);
-            this.DO_ch.Series.Add(series11);
-            this.DO_ch.Size = new System.Drawing.Size(447, 347);
-            this.DO_ch.TabIndex = 0;
-            this.DO_ch.Text = "chart1";
+            chartArea1.Name = "ChartArea1";
+            this.T_ch.ChartAreas.Add(chartArea1);
+            this.T_ch.Location = new System.Drawing.Point(5, 22);
+            this.T_ch.Name = "T_ch";
+            this.T_ch.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SemiTransparent;
+            series1.ChartArea = "ChartArea1";
+            series1.Name = "Disslowed Oxygen";
+            series1.Points.Add(dataPoint1);
+            this.T_ch.Series.Add(series1);
+            this.T_ch.Size = new System.Drawing.Size(447, 347);
+            this.T_ch.TabIndex = 6;
+            this.T_ch.Text = "chart1";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label11.Location = new System.Drawing.Point(381, 5);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(52, 25);
+            this.label11.TabIndex = 7;
+            this.label11.Text = "Temp";
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.label10);
+            this.tabPage4.Controls.Add(this.OPR_ch);
+            this.tabPage4.Font = new System.Drawing.Font("Monotype Corsiva", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(456, 377);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "OPR";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // OPR_ch
+            // 
+            chartArea2.Name = "ChartArea1";
+            this.OPR_ch.ChartAreas.Add(chartArea2);
+            this.OPR_ch.Location = new System.Drawing.Point(5, 22);
+            this.OPR_ch.Name = "OPR_ch";
+            this.OPR_ch.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
+            series2.ChartArea = "ChartArea1";
+            series2.Name = "Disslowed Oxygen";
+            series2.Points.Add(dataPoint2);
+            this.OPR_ch.Series.Add(series2);
+            this.OPR_ch.Size = new System.Drawing.Size(447, 347);
+            this.OPR_ch.TabIndex = 6;
+            this.OPR_ch.Text = "chart1";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label10.Location = new System.Drawing.Point(383, 7);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(50, 25);
+            this.label10.TabIndex = 7;
+            this.label10.Text = "OPR";
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.label9);
+            this.tabPage3.Controls.Add(this.PH_ch);
+            this.tabPage3.Font = new System.Drawing.Font("Monotype Corsiva", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(456, 377);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "PH";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // PH_ch
+            // 
+            chartArea3.Name = "ChartArea1";
+            this.PH_ch.ChartAreas.Add(chartArea3);
+            this.PH_ch.Location = new System.Drawing.Point(5, 22);
+            this.PH_ch.Name = "PH_ch";
+            this.PH_ch.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Excel;
+            series3.ChartArea = "ChartArea1";
+            series3.Name = "Disslowed Oxygen";
+            series3.Points.Add(dataPoint3);
+            this.PH_ch.Series.Add(series3);
+            this.PH_ch.Size = new System.Drawing.Size(447, 347);
+            this.PH_ch.TabIndex = 6;
+            this.PH_ch.Text = "chart1";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label9.Location = new System.Drawing.Point(394, 7);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(38, 25);
+            this.label9.TabIndex = 7;
+            this.label9.Text = "PH";
             // 
             // tabPage2
             // 
@@ -513,6 +613,21 @@
             this.tabPage2.Text = "Cond";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // CO_ch
+            // 
+            chartArea4.Name = "ChartArea1";
+            this.CO_ch.ChartAreas.Add(chartArea4);
+            this.CO_ch.Location = new System.Drawing.Point(5, 22);
+            this.CO_ch.Name = "CO_ch";
+            this.CO_ch.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
+            series4.ChartArea = "ChartArea1";
+            series4.Name = "Disslowed Oxygen";
+            series4.Points.Add(dataPoint4);
+            this.CO_ch.Series.Add(series4);
+            this.CO_ch.Size = new System.Drawing.Size(447, 347);
+            this.CO_ch.TabIndex = 4;
+            this.CO_ch.Text = "chart1";
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -524,131 +639,115 @@
             this.label8.Text = "Conductivity";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
-            // CO_ch
+            // tabPage1
             // 
-            chartArea12.Name = "ChartArea1";
-            this.CO_ch.ChartAreas.Add(chartArea12);
-            this.CO_ch.Location = new System.Drawing.Point(3, 23);
-            this.CO_ch.Name = "CO_ch";
-            this.CO_ch.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
-            series12.ChartArea = "ChartArea1";
-            series12.Name = "Disslowed Oxygen";
-            series12.Points.Add(dataPoint12);
-            this.CO_ch.Series.Add(series12);
-            this.CO_ch.Size = new System.Drawing.Size(447, 347);
-            this.CO_ch.TabIndex = 4;
-            this.CO_ch.Text = "chart1";
+            this.tabPage1.Controls.Add(this.label7);
+            this.tabPage1.Controls.Add(this.DO_ch);
+            this.tabPage1.Font = new System.Drawing.Font("Monotype Corsiva", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(456, 377);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "DO";
+            this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage3
+            // DO_ch
             // 
-            this.tabPage3.Controls.Add(this.label9);
-            this.tabPage3.Controls.Add(this.PH_ch);
-            this.tabPage3.Font = new System.Drawing.Font("Monotype Corsiva", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(456, 377);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "PH";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            chartArea5.Name = "ChartArea1";
+            this.DO_ch.ChartAreas.Add(chartArea5);
+            this.DO_ch.Location = new System.Drawing.Point(5, 22);
+            this.DO_ch.Name = "DO_ch";
+            this.DO_ch.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
+            series5.ChartArea = "ChartArea1";
+            series5.Name = "Disslowed Oxygen";
+            series5.Points.Add(dataPoint5);
+            this.DO_ch.Series.Add(series5);
+            this.DO_ch.Size = new System.Drawing.Size(447, 347);
+            this.DO_ch.TabIndex = 0;
+            this.DO_ch.Text = "chart1";
             // 
-            // label9
+            // label7
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label9.Location = new System.Drawing.Point(394, 7);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 25);
-            this.label9.TabIndex = 7;
-            this.label9.Text = "PH";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.Location = new System.Drawing.Point(277, 8);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(150, 25);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "Disslowed Oxygen";
             // 
-            // PH_ch
+            // tabControl1
             // 
-            chartArea13.Name = "ChartArea1";
-            this.PH_ch.ChartAreas.Add(chartArea13);
-            this.PH_ch.Location = new System.Drawing.Point(5, 22);
-            this.PH_ch.Name = "PH_ch";
-            this.PH_ch.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Excel;
-            series13.ChartArea = "ChartArea1";
-            series13.Name = "Disslowed Oxygen";
-            series13.Points.Add(dataPoint13);
-            this.PH_ch.Series.Add(series13);
-            this.PH_ch.Size = new System.Drawing.Size(447, 347);
-            this.PH_ch.TabIndex = 6;
-            this.PH_ch.Text = "chart1";
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Controls.Add(this.tabPage4);
+            this.tabControl1.Controls.Add(this.tabPage5);
+            this.tabControl1.Location = new System.Drawing.Point(406, 21);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(464, 403);
+            this.tabControl1.TabIndex = 7;
             // 
-            // tabPage4
+            // checkBox1
             // 
-            this.tabPage4.Controls.Add(this.label10);
-            this.tabPage4.Controls.Add(this.OPR_ch);
-            this.tabPage4.Font = new System.Drawing.Font("Monotype Corsiva", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(456, 377);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "OPR";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(736, 432);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(85, 17);
+            this.checkBox1.TabIndex = 11;
+            this.checkBox1.Text = "TimeButtons";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // label10
+            // P113
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label10.Location = new System.Drawing.Point(383, 7);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(50, 25);
-            this.label10.TabIndex = 7;
-            this.label10.Text = "OPR";
+            this.P113.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.P113.ForeColor = System.Drawing.Color.Lime;
+            this.P113.Location = new System.Drawing.Point(275, 55);
+            this.P113.Name = "P113";
+            this.P113.Size = new System.Drawing.Size(66, 128);
+            this.P113.TabIndex = 27;
+            this.P113.Text = "ON";
+            this.P113.UseVisualStyleBackColor = true;
+            this.P113.Click += new System.EventHandler(this.P113_Click);
             // 
-            // OPR_ch
+            // P112
             // 
-            chartArea14.Name = "ChartArea1";
-            this.OPR_ch.ChartAreas.Add(chartArea14);
-            this.OPR_ch.Location = new System.Drawing.Point(5, 22);
-            this.OPR_ch.Name = "OPR_ch";
-            this.OPR_ch.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
-            series14.ChartArea = "ChartArea1";
-            series14.Name = "Disslowed Oxygen";
-            series14.Points.Add(dataPoint14);
-            this.OPR_ch.Series.Add(series14);
-            this.OPR_ch.Size = new System.Drawing.Size(447, 347);
-            this.OPR_ch.TabIndex = 6;
-            this.OPR_ch.Text = "chart1";
+            this.P112.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.P112.ForeColor = System.Drawing.Color.Lime;
+            this.P112.Location = new System.Drawing.Point(191, 55);
+            this.P112.Name = "P112";
+            this.P112.Size = new System.Drawing.Size(66, 128);
+            this.P112.TabIndex = 26;
+            this.P112.Text = "ON";
+            this.P112.UseVisualStyleBackColor = true;
+            this.P112.Click += new System.EventHandler(this.P112_Click);
             // 
-            // tabPage5
+            // P111
             // 
-            this.tabPage5.Controls.Add(this.label11);
-            this.tabPage5.Controls.Add(this.T_ch);
-            this.tabPage5.Font = new System.Drawing.Font("Monotype Corsiva", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(456, 377);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Temp";
-            this.tabPage5.UseVisualStyleBackColor = true;
+            this.P111.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.P111.ForeColor = System.Drawing.Color.Lime;
+            this.P111.Location = new System.Drawing.Point(109, 55);
+            this.P111.Name = "P111";
+            this.P111.Size = new System.Drawing.Size(66, 128);
+            this.P111.TabIndex = 25;
+            this.P111.Text = "ON";
+            this.P111.UseVisualStyleBackColor = true;
+            this.P111.Click += new System.EventHandler(this.P111_Click);
             // 
-            // label11
+            // P110
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label11.Location = new System.Drawing.Point(381, 5);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(52, 25);
-            this.label11.TabIndex = 7;
-            this.label11.Text = "Temp";
-            // 
-            // T_ch
-            // 
-            chartArea15.Name = "ChartArea1";
-            this.T_ch.ChartAreas.Add(chartArea15);
-            this.T_ch.Location = new System.Drawing.Point(5, 22);
-            this.T_ch.Name = "T_ch";
-            this.T_ch.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SemiTransparent;
-            series15.ChartArea = "ChartArea1";
-            series15.Name = "Disslowed Oxygen";
-            series15.Points.Add(dataPoint15);
-            this.T_ch.Series.Add(series15);
-            this.T_ch.Size = new System.Drawing.Size(447, 347);
-            this.T_ch.TabIndex = 6;
-            this.T_ch.Text = "chart1";
+            this.P110.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.P110.ForeColor = System.Drawing.Color.Lime;
+            this.P110.Location = new System.Drawing.Point(25, 55);
+            this.P110.Name = "P110";
+            this.P110.Size = new System.Drawing.Size(67, 128);
+            this.P110.TabIndex = 24;
+            this.P110.Text = "ON";
+            this.P110.UseVisualStyleBackColor = true;
+            this.P110.Click += new System.EventHandler(this.P110_Click);
             // 
             // pictureBox2
             // 
@@ -678,31 +777,17 @@
             this.connect_btn.UseVisualStyleBackColor = true;
             this.connect_btn.Click += new System.EventHandler(this.connect_Click);
             // 
-            // label12
+            // toolStripStatusLabel1
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label12.Location = new System.Drawing.Point(922, 389);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(169, 25);
-            this.label12.TabIndex = 4;
-            this.label12.Text = "Wrote by BardinPetr";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Monotype Corsiva", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label13.Location = new System.Drawing.Point(822, 431);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(277, 15);
-            this.label13.TabIndex = 10;
-            this.label13.Text = "If You find bugs, please write me to bardin.petr@gmail.com";
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 17);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1109, 450);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.pictureBox2);
@@ -712,7 +797,9 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Aquaponics controller";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -722,22 +809,22 @@
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DO_ch)).EndInit();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.CO_ch)).EndInit();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PH_ch)).EndInit();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.OPR_ch)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.T_ch)).EndInit();
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.OPR_ch)).EndInit();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PH_ch)).EndInit();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.CO_ch)).EndInit();
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DO_ch)).EndInit();
+            this.tabControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -777,26 +864,32 @@
         private System.Windows.Forms.Label P_3;
         private System.Windows.Forms.Label P_2;
         private System.Windows.Forms.Label P_1;
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.DataVisualization.Charting.Chart DO_ch;
-        private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.TabPage tabPage5;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.DataVisualization.Charting.Chart CO_ch;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DataVisualization.Charting.Chart PH_ch;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.DataVisualization.Charting.Chart OPR_ch;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.DataVisualization.Charting.Chart T_ch;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.DataVisualization.Charting.Chart T_ch;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.DataVisualization.Charting.Chart OPR_ch;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.DataVisualization.Charting.Chart PH_ch;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.DataVisualization.Charting.Chart CO_ch;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.DataVisualization.Charting.Chart DO_ch;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button P113;
+        private System.Windows.Forms.Button P112;
+        private System.Windows.Forms.Button P111;
+        private System.Windows.Forms.Button P110;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
     }
 }
 

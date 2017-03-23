@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.IO.Ports;
 using System.Linq;
 using System.Text;
@@ -123,35 +124,40 @@ namespace Aquaponics
                     {
                         DO_ch.Series[0].Points.RemoveAt(0);
                     }
-                    DO_ch.Series[0].Points.Add(Double.Parse(res_s[2]));
+                    double ii = double.Parse(res_s[2], NumberStyles.Number, CultureInfo.CreateSpecificCulture("en-US"));
+                    DO_ch.Series[0].Points.Add(ii);
 
 
                     if (CO_ch.Series[0].Points.Count > 30)
                     {
                         CO_ch.Series[0].Points.RemoveAt(0);
                     }
-                    CO_ch.Series[0].Points.Add(Double.Parse(res_s[3]));
+                    ii = double.Parse(res_s[3], NumberStyles.Number, CultureInfo.CreateSpecificCulture("en-US"));
+                    CO_ch.Series[0].Points.Add(ii);
 
 
                     if (PH_ch.Series[0].Points.Count > 30)
                     {
                         PH_ch.Series[0].Points.RemoveAt(0);
                     }
-                    PH_ch.Series[0].Points.Add(Double.Parse(res_s[0]));
+                    ii = double.Parse(res_s[0], NumberStyles.Number, CultureInfo.CreateSpecificCulture("en-US"));
+                    PH_ch.Series[0].Points.Add(ii);
 
 
                     if (T_ch.Series[0].Points.Count > 30)
                     {
                         T_ch.Series[0].Points.RemoveAt(0);
                     }
-                    T_ch.Series[0].Points.Add(Double.Parse(res_s[4]));
+                    ii = double.Parse(res_s[4], NumberStyles.Number, CultureInfo.CreateSpecificCulture("en-US"));
+                    T_ch.Series[0].Points.Add(ii);
 
 
                     if (OPR_ch.Series[0].Points.Count > 30)
                     {
                         OPR_ch.Series[0].Points.RemoveAt(0);
                     }
-                    OPR_ch.Series[0].Points.Add(Double.Parse(res_s[1]));
+                    ii = double.Parse(res_s[1], NumberStyles.Number, CultureInfo.CreateSpecificCulture("en-US"));
+                    OPR_ch.Series[0].Points.Add(ii);
                 }
             }
             catch (Exception ex) {
@@ -159,8 +165,6 @@ namespace Aquaponics
                 if (max_err_count < err_count)
                 {
                     setStatus("System ERROR. Going to shutdown.");
-                    delay(4000);
-                    work = false;
                     return;
                 }
             }
@@ -231,6 +235,70 @@ namespace Aquaponics
         private void label8_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                P00.Visible = true;
+                P01.Visible = true;
+                P02.Visible = true;
+                P03.Visible = true;
+                P10.Visible = true;
+                P11.Visible = true;
+                P12.Visible = true;
+                P13.Visible = true;
+
+                P110.Visible = false;
+                P111.Visible = false;
+                P112.Visible = false;
+                P113.Visible = false;
+
+                _serialPort.Write("!0");
+            }
+            else
+            {
+                P00.Visible = false;
+                P01.Visible = false;
+                P02.Visible = false;
+                P03.Visible = false;
+                P10.Visible = false;
+                P11.Visible = false;
+                P12.Visible = false;
+                P13.Visible = false;
+
+                P110.Visible = true;
+                P111.Visible = true;
+                P112.Visible = true;
+                P113.Visible = true;
+
+                _serialPort.Write("!1");
+            }
+        }
+
+        private void P110_Click(object sender, EventArgs e)
+        {
+            P_1.ForeColor = Color.BlueViolet;
+            _serialPort.Write("<10>");
+        }
+
+        private void P111_Click(object sender, EventArgs e)
+        {
+            P_2.ForeColor = Color.BlueViolet;
+            _serialPort.Write("<11>");
+        }
+
+        private void P112_Click(object sender, EventArgs e)
+        {
+            P_3.ForeColor = Color.BlueViolet;
+            _serialPort.Write("<12>");
+        }
+
+        private void P113_Click(object sender, EventArgs e)
+        {
+            P_4.ForeColor = Color.BlueViolet;
+            _serialPort.Write("<13>");
         }
     }
 }
