@@ -12,7 +12,7 @@ int pins[4] = {9, 10, 11, 12};
 
 bool pins_run[4] = {false, false, false, false};
 unsigned long pins_tmr[4] = {0, 0, 0, 0};
-int ttime = 300; //time of pums work
+int ttime = 300; //time of pumps work
 
 bool timeButtons = true;
 
