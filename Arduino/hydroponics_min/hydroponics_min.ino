@@ -2,8 +2,17 @@
 #define PROG 1
 #define SEND_FORMAT PROG
 
+#include <OneWire.h>
+#include <DallasTemperature.h>
+#include <SoftwareSerial.h>
+
 #include "WaterControll.h"
-WaterControll sens;
+
+SoftwareSerial softser(4, 5);
+WaterControll sens(softser, 6, 7, 8, true);
+
+OneWire oneWire(2);
+DallasTemperature sensors(&oneWire);
 
 String inputString = "";
 boolean stringComplete = false;
@@ -19,14 +28,14 @@ bool timeButtons = true;
 void setup() {
   Serial.begin(9600);
 
-  //sens.Add(sens.PH, "pH", false);
+  sens.Add(sens.PH, "pH", true);
   sens.Add(sens.OPR, "OPR", false);
   sens.Add(sens.DO, "Oxygen", false);
   sens.Add(sens.COND, "Conductivity", false);
-  //sens.Add(sens.RTD, "Temperature", false);
-  //sens.Add(sens.FLOW, "Flow", true);
 
   sens.set_finishHandler(finish);
+
+  sensors.begin();
 
   inputString.reserve(5);
 
@@ -44,11 +53,11 @@ void finish(float* in) {
   }
   else {
     Serial.print("<");
-    Serial.print("7.00#");
     for (int i = 0; i < sens.sensors_count; i++) {
       Serial.print(String(in[i]) + "#");
     }
-    Serial.print("19.0#");
+    sensors.requestTemperatures(); 
+    Serial.print(String(String(sensors.getTempCByIndex(0)) + "#"));
     Serial.println(">");
   }
 }
